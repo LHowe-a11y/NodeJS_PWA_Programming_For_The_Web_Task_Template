@@ -1,0 +1,834 @@
+[
+{
+"id":1,
+"Date":"20250101",
+"HolidayName":"New Year's Day",
+"Information":" ",
+"MoreInformation":"https://www.act.gov.au/living-in-the-act/public-holidays-school-terms-and-daylight-savings",
+"Jurisdiction":"act"
+},
+{
+"id":2,
+"Date":"20250127",
+"HolidayName":"Australia Day",
+"Information":" ",
+"MoreInformation":"https://www.act.gov.au/living-in-the-act/public-holidays-school-terms-and-daylight-savings",
+"Jurisdiction":"act"
+},
+{
+"id":3,
+"Date":"20250310",
+"HolidayName":"Canberra Day",
+"Information":" ",
+"MoreInformation":"https://www.act.gov.au/living-in-the-act/public-holidays-school-terms-and-daylight-savings",
+"Jurisdiction":"act"
+},
+{
+"id":4,
+"Date":"20250418",
+"HolidayName":"Good Friday",
+"Information":" ",
+"MoreInformation":"https://www.act.gov.au/living-in-the-act/public-holidays-school-terms-and-daylight-savings",
+"Jurisdiction":"act"
+},
+{
+"id":5,
+"Date":"20250419",
+"HolidayName":"Easter Saturday - the day after Good Friday",
+"Information":" ",
+"MoreInformation":"https://www.act.gov.au/living-in-the-act/public-holidays-school-terms-and-daylight-savings",
+"Jurisdiction":"act"
+},
+{
+"id":6,
+"Date":"20250420",
+"HolidayName":"Easter Sunday",
+"Information":" ",
+"MoreInformation":"https://www.act.gov.au/living-in-the-act/public-holidays-school-terms-and-daylight-savings",
+"Jurisdiction":"act"
+},
+{
+"id":7,
+"Date":"20250421",
+"HolidayName":"Easter Monday",
+"Information":" ",
+"MoreInformation":"https://www.act.gov.au/living-in-the-act/public-holidays-school-terms-and-daylight-savings",
+"Jurisdiction":"act"
+},
+{
+"id":8,
+"Date":"20250425",
+"HolidayName":"ANZAC Day",
+"Information":" ",
+"MoreInformation":"https://www.act.gov.au/living-in-the-act/public-holidays-school-terms-and-daylight-savings",
+"Jurisdiction":"act"
+},
+{
+"id":9,
+"Date":"20250602",
+"HolidayName":"Reconciliation Day",
+"Information":" ",
+"MoreInformation":"https://www.act.gov.au/living-in-the-act/public-holidays-school-terms-and-daylight-savings",
+"Jurisdiction":"act"
+},
+{
+"id":10,
+"Date":"20250609",
+"HolidayName":"King's Birthday",
+"Information":" ",
+"MoreInformation":"https://www.act.gov.au/living-in-the-act/public-holidays-school-terms-and-daylight-savings",
+"Jurisdiction":"act"
+},
+{
+"id":11,
+"Date":"20251006",
+"HolidayName":"Labour Day",
+"Information":" ",
+"MoreInformation":"https://www.act.gov.au/living-in-the-act/public-holidays-school-terms-and-daylight-savings",
+"Jurisdiction":"act"
+},
+{
+"id":12,
+"Date":"20251225",
+"HolidayName":"Christmas Day",
+"Information":" ",
+"MoreInformation":"https://www.act.gov.au/living-in-the-act/public-holidays-school-terms-and-daylight-savings",
+"Jurisdiction":"act"
+},
+{
+"id":13,
+"Date":"20251226",
+"HolidayName":"Boxing Day",
+"Information":" ",
+"MoreInformation":"https://www.act.gov.au/living-in-the-act/public-holidays-school-terms-and-daylight-savings",
+"Jurisdiction":"act"
+},
+{
+"id":14,
+"Date":"20250101",
+"HolidayName":"New Year's Day",
+"Information":" ",
+"MoreInformation":"https://www.nsw.gov.au/about-nsw/public-holidays",
+"Jurisdiction":"nsw"
+},
+{
+"id":15,
+"Date":"20250127",
+"HolidayName":"Australia Day",
+"Information":" ",
+"MoreInformation":"https://www.nsw.gov.au/about-nsw/public-holidays",
+"Jurisdiction":"nsw"
+},
+{
+"id":16,
+"Date":"20250418",
+"HolidayName":"Good Friday",
+"Information":" ",
+"MoreInformation":"https://www.nsw.gov.au/about-nsw/public-holidays",
+"Jurisdiction":"nsw"
+},
+{
+"id":17,
+"Date":"20250419",
+"HolidayName":"Easter Saturday",
+"Information":" ",
+"MoreInformation":"https://www.nsw.gov.au/about-nsw/public-holidays",
+"Jurisdiction":"nsw"
+},
+{
+"id":18,
+"Date":"20250420",
+"HolidayName":"Easter Sunday",
+"Information":" ",
+"MoreInformation":"https://www.nsw.gov.au/about-nsw/public-holidays",
+"Jurisdiction":"nsw"
+},
+{
+"id":19,
+"Date":"20250421",
+"HolidayName":"Easter Monday",
+"Information":" ",
+"MoreInformation":"https://www.nsw.gov.au/about-nsw/public-holidays",
+"Jurisdiction":"nsw"
+},
+{
+"id":20,
+"Date":"20250425",
+"HolidayName":"Anzac Day",
+"Information":" ",
+"MoreInformation":"https://www.nsw.gov.au/about-nsw/public-holidays",
+"Jurisdiction":"nsw"
+},
+{
+"id":21,
+"Date":"20250609",
+"HolidayName":"King's Birthday",
+"Information":" ",
+"MoreInformation":"https://www.nsw.gov.au/about-nsw/public-holidays",
+"Jurisdiction":"nsw"
+},
+{
+"id":22,
+"Date":"20250804",
+"HolidayName":"Bank Holiday",
+"Information":"Applies to banks and certain financial institutions, see the Retail Trading Act 2008.",
+"MoreInformation":"https://www.nsw.gov.au/about-nsw/public-holidays",
+"Jurisdiction":"nsw"
+},
+{
+"id":23,
+"Date":"20251006",
+"HolidayName":"Labour Day",
+"Information":" ",
+"MoreInformation":"https://www.nsw.gov.au/about-nsw/public-holidays",
+"Jurisdiction":"nsw"
+},
+{
+"id":24,
+"Date":"20251225",
+"HolidayName":"Christmas Day",
+"Information":" ",
+"MoreInformation":"https://www.nsw.gov.au/about-nsw/public-holidays",
+"Jurisdiction":"nsw"
+},
+{
+"id":25,
+"Date":"20251226",
+"HolidayName":"Boxing Day",
+"Information":" ",
+"MoreInformation":"https://www.nsw.gov.au/about-nsw/public-holidays",
+"Jurisdiction":"nsw"
+},
+{
+"id":26,
+"Date":"20250101",
+"HolidayName":"New Year's Day",
+"Information":" ",
+"MoreInformation":"https://www.nt.gov.au/nt-public-holidays",
+"Jurisdiction":"nt"
+},
+{
+"id":27,
+"Date":"20250127",
+"HolidayName":"Australia Day",
+"Information":" ",
+"MoreInformation":"https://www.nt.gov.au/nt-public-holidays",
+"Jurisdiction":"nt"
+},
+{
+"id":28,
+"Date":"20250418",
+"HolidayName":"Good Friday",
+"Information":" ",
+"MoreInformation":"https://www.nt.gov.au/nt-public-holidays",
+"Jurisdiction":"nt"
+},
+{
+"id":29,
+"Date":"20250419",
+"HolidayName":"Easter Saturday",
+"Information":" ",
+"MoreInformation":"https://www.nt.gov.au/nt-public-holidays",
+"Jurisdiction":"nt"
+},
+{
+"id":30,
+"Date":"20250420",
+"HolidayName":"Easter Sunday",
+"Information":" ",
+"MoreInformation":"https://www.nt.gov.au/nt-public-holidays",
+"Jurisdiction":"nt"
+},
+{
+"id":31,
+"Date":"20250421",
+"HolidayName":"Easter Monday",
+"Information":" ",
+"MoreInformation":"https://www.nt.gov.au/nt-public-holidays",
+"Jurisdiction":"nt"
+},
+{
+"id":32,
+"Date":"20250425",
+"HolidayName":"Anzac Day",
+"Information":" ",
+"MoreInformation":"https://www.nt.gov.au/nt-public-holidays",
+"Jurisdiction":"nt"
+},
+{
+"id":33,
+"Date":"20250505",
+"HolidayName":"May Day",
+"Information":" ",
+"MoreInformation":"https://www.nt.gov.au/nt-public-holidays",
+"Jurisdiction":"nt"
+},
+{
+"id":34,
+"Date":"20250609",
+"HolidayName":"King's Birthday",
+"Information":" ",
+"MoreInformation":"https://www.nt.gov.au/nt-public-holidays",
+"Jurisdiction":"nt"
+},
+{
+"id":35,
+"Date":"20250704",
+"HolidayName":"Alice Springs Show Day",
+"Information":"Regional holiday - to find out which show day applies to your area, check the map of NT show day regions.",
+"MoreInformation":"https://www.nt.gov.au/nt-public-holidays",
+"Jurisdiction":"nt"
+},
+{
+"id":36,
+"Date":"20250711",
+"HolidayName":"Tennant Creek Show Day",
+"Information":"Regional holiday - to find out which show day applies to your area, check the map of NT show day regions.",
+"MoreInformation":"https://www.nt.gov.au/nt-public-holidays",
+"Jurisdiction":"nt"
+},
+{
+"id":37,
+"Date":"20250718",
+"HolidayName":"Katherine Show Day",
+"Information":"Regional holiday - to find out which show day applies to your area, check the map of NT show day regions.",
+"MoreInformation":"https://www.nt.gov.au/nt-public-holidays",
+"Jurisdiction":"nt"
+},
+{
+"id":38,
+"Date":"20250725",
+"HolidayName":"Darwin Show Day",
+"Information":"Regional holiday - to find out which show day applies to your area, check the map of NT show day regions.",
+"MoreInformation":"https://www.nt.gov.au/nt-public-holidays",
+"Jurisdiction":"nt"
+},
+{
+"id":39,
+"Date":"20250804",
+"HolidayName":"Picnic Day",
+"Information":" ",
+"MoreInformation":"https://www.nt.gov.au/nt-public-holidays",
+"Jurisdiction":"nt"
+},
+{
+"id":40,
+"Date":"20251224",
+"HolidayName":"Christmas Eve - part day holiday",
+"Information":"Part day holiday - from 7pm to midnight only.",
+"MoreInformation":"https://www.nt.gov.au/nt-public-holidays",
+"Jurisdiction":"nt"
+},
+{
+"id":41,
+"Date":"20251225",
+"HolidayName":"Christmas Day",
+"Information":" ",
+"MoreInformation":"https://www.nt.gov.au/nt-public-holidays",
+"Jurisdiction":"nt"
+},
+{
+"id":42,
+"Date":"20251226",
+"HolidayName":"Boxing Day",
+"Information":" ",
+"MoreInformation":"https://www.nt.gov.au/nt-public-holidays",
+"Jurisdiction":"nt"
+},
+{
+"id":43,
+"Date":"20251231",
+"HolidayName":"New Year's Eve - part day holiday",
+"Information":"Part day holiday - from 7pm to midnight only.",
+"MoreInformation":"https://www.nt.gov.au/nt-public-holidays",
+"Jurisdiction":"nt"
+},
+{
+"id":44,
+"Date":"20250101",
+"HolidayName":"New Year's Day",
+"Information":" ",
+"MoreInformation":"https://www.qld.gov.au/recreation/travel/holidays/public",
+"Jurisdiction":"qld"
+},
+{
+"id":45,
+"Date":"20250127",
+"HolidayName":"Australia Day",
+"Information":"Australia Day public holiday is to be observed on the 26 January or, if 26 January is a Saturday or Sunday, it shall be observed the following Monday.",
+"MoreInformation":"https://www.qld.gov.au/recreation/travel/holidays/public",
+"Jurisdiction":"qld"
+},
+{
+"id":46,
+"Date":"20250418",
+"HolidayName":"Good Friday",
+"Information":" ",
+"MoreInformation":"https://www.qld.gov.au/recreation/travel/holidays/public",
+"Jurisdiction":"qld"
+},
+{
+"id":47,
+"Date":"20250419",
+"HolidayName":"The day after Good Friday",
+"Information":" ",
+"MoreInformation":"https://www.qld.gov.au/recreation/travel/holidays/public",
+"Jurisdiction":"qld"
+},
+{
+"id":48,
+"Date":"20250420",
+"HolidayName":"Easter Sunday",
+"Information":"Easter Sunday is appointed as a public holiday. These arrangements have been in place since 2017 following amendments to the Holidays Act 1983 (passed by Parliament on 1 December 2016).",
+"MoreInformation":"https://www.qld.gov.au/recreation/travel/holidays/public",
+"Jurisdiction":"qld"
+},
+{
+"id":49,
+"Date":"20250421",
+"HolidayName":"Easter Monday",
+"Information":" ",
+"MoreInformation":"https://www.qld.gov.au/recreation/travel/holidays/public",
+"Jurisdiction":"qld"
+},
+{
+"id":50,
+"Date":"20250425",
+"HolidayName":"Anzac Day",
+"Information":" ",
+"MoreInformation":"https://www.qld.gov.au/recreation/travel/holidays/public",
+"Jurisdiction":"qld"
+},
+{
+"id":51,
+"Date":"20250505",
+"HolidayName":"Labour Day",
+"Information":"Labour Day public holiday is to be observed on the first Monday in May and the Birthday of the Sovereign (King's Birthday) public holiday is to be observed on the first Monday in October. These arrangements have been in place since 2016 following amendments to the Holidays Act 1983 (passed by Parliament on 13 October 2015).",
+"MoreInformation":"https://www.qld.gov.au/recreation/travel/holidays/public",
+"Jurisdiction":"qld"
+},
+{
+"id":52,
+"Date":"20250813",
+"HolidayName":"Royal Queensland Show (Brisbane area only)",
+"Information":"The Royal National Agricultural (RNA) Show Day (Brisbane only) is held on the Wednesday during the RNA Show period. The RNA Show commences on the first Friday in August, unless the first Friday is prior to 5 August, then it commences on the second Friday of August.",
+"MoreInformation":"https://www.qld.gov.au/recreation/travel/holidays/public",
+"Jurisdiction":"qld"
+},
+{
+"id":53,
+"Date":"20251006",
+"HolidayName":"King's Birthday",
+"Information":"Labour Day public holiday is to be observed on the first Monday in May and the Birthday of the Sovereign (King's Birthday) public holiday is to be observed on the first Monday in October. These arrangements have been in place since 2016 following amendments to the Holidays Act 1983 (passed by Parliament on 13 October 2015).",
+"MoreInformation":"https://www.qld.gov.au/recreation/travel/holidays/public",
+"Jurisdiction":"qld"
+},
+{
+"id":54,
+"Date":"20251224",
+"HolidayName":"Christmas Eve (24 December) 6pm - midnight",
+"Information":"From 2019, the Holidays Act 1983 provides for a part-day public holiday from 6pm to midnight on Christmas Eve (24 December).",
+"MoreInformation":"https://www.qld.gov.au/recreation/travel/holidays/public",
+"Jurisdiction":"qld"
+},
+{
+"id":55,
+"Date":"20251225",
+"HolidayName":"Christmas Day",
+"Information":" ",
+"MoreInformation":"https://www.qld.gov.au/recreation/travel/holidays/public",
+"Jurisdiction":"qld"
+},
+{
+"id":56,
+"Date":"20251226",
+"HolidayName":"Boxing Day",
+"Information":" ",
+"MoreInformation":"https://www.qld.gov.au/recreation/travel/holidays/public",
+"Jurisdiction":"qld"
+},
+{
+"id":57,
+"Date":"20250101",
+"HolidayName":"New Years Day",
+"Information":" ",
+"MoreInformation":"https://www.safework.sa.gov.au/resources/public-holidays",
+"Jurisdiction":"sa"
+},
+{
+"id":58,
+"Date":"20250127",
+"HolidayName":"Australia Day public holiday",
+"Information":" ",
+"MoreInformation":"https://www.safework.sa.gov.au/resources/public-holidays",
+"Jurisdiction":"sa"
+},
+{
+"id":59,
+"Date":"20250310",
+"HolidayName":"Adelaide Cup Day",
+"Information":" ",
+"MoreInformation":"https://www.safework.sa.gov.au/resources/public-holidays",
+"Jurisdiction":"sa"
+},
+{
+"id":60,
+"Date":"20250418",
+"HolidayName":"Good Friday",
+"Information":" ",
+"MoreInformation":"https://www.safework.sa.gov.au/resources/public-holidays",
+"Jurisdiction":"sa"
+},
+{
+"id":61,
+"Date":"20250419",
+"HolidayName":"Easter Saturday",
+"Information":" ",
+"MoreInformation":"https://www.safework.sa.gov.au/resources/public-holidays",
+"Jurisdiction":"sa"
+},
+{
+"id":62,
+"Date":"20250420",
+"HolidayName":"Easter Sunday",
+"Information":" ",
+"MoreInformation":"https://www.safework.sa.gov.au/resources/public-holidays",
+"Jurisdiction":"sa"
+},
+{
+"id":63,
+"Date":"20250421",
+"HolidayName":"Easter Monday",
+"Information":" ",
+"MoreInformation":"https://www.safework.sa.gov.au/resources/public-holidays",
+"Jurisdiction":"sa"
+},
+{
+"id":64,
+"Date":"20250425",
+"HolidayName":"ANZAC Day",
+"Information":" ",
+"MoreInformation":"https://www.safework.sa.gov.au/resources/public-holidays",
+"Jurisdiction":"sa"
+},
+{
+"id":65,
+"Date":"20250609",
+"HolidayName":"Kings Birthday",
+"Information":" ",
+"MoreInformation":"https://www.safework.sa.gov.au/resources/public-holidays",
+"Jurisdiction":"sa"
+},
+{
+"id":66,
+"Date":"20251006",
+"HolidayName":"Labour Day",
+"Information":" ",
+"MoreInformation":"https://www.safework.sa.gov.au/resources/public-holidays",
+"Jurisdiction":"sa"
+},
+{
+"id":67,
+"Date":"20251224",
+"HolidayName":"Christmas Eve: 7pm to midnight",
+"Information":" ",
+"MoreInformation":"https://www.safework.sa.gov.au/resources/public-holidays",
+"Jurisdiction":"sa"
+},
+{
+"id":68,
+"Date":"20251225",
+"HolidayName":"Christmas Day",
+"Information":" ",
+"MoreInformation":"https://www.safework.sa.gov.au/resources/public-holidays",
+"Jurisdiction":"sa"
+},
+{
+"id":69,
+"Date":"20251226",
+"HolidayName":"Proclamation Day holiday and Boxing Day",
+"Information":" ",
+"MoreInformation":"https://www.safework.sa.gov.au/resources/public-holidays",
+"Jurisdiction":"sa"
+},
+{
+"id":70,
+"Date":"20251231",
+"HolidayName":"New Years Eve: 7pm to midnight",
+"Information":" ",
+"MoreInformation":"https://www.safework.sa.gov.au/resources/public-holidays",
+"Jurisdiction":"sa"
+},
+{
+"id":71,
+"Date":"20250101",
+"HolidayName":"New Year's Day",
+"Information":" ",
+"MoreInformation":"https://worksafe.tas.gov.au/topics/laws-and-compliance/public-holidays",
+"Jurisdiction":"tas"
+},
+{
+"id":72,
+"Date":"20250127",
+"HolidayName":"Australia Day",
+"Information":" ",
+"MoreInformation":"https://worksafe.tas.gov.au/topics/laws-and-compliance/public-holidays",
+"Jurisdiction":"tas"
+},
+{
+"id":73,
+"Date":"20250310",
+"HolidayName":"Eight Hours Day",
+"Information":" ",
+"MoreInformation":"https://worksafe.tas.gov.au/topics/laws-and-compliance/public-holidays",
+"Jurisdiction":"tas"
+},
+{
+"id":74,
+"Date":"20250418",
+"HolidayName":"Good Friday",
+"Information":" ",
+"MoreInformation":"https://worksafe.tas.gov.au/topics/laws-and-compliance/public-holidays",
+"Jurisdiction":"tas"
+},
+{
+"id":75,
+"Date":"20250421",
+"HolidayName":"Easter Monday",
+"Information":" ",
+"MoreInformation":"https://worksafe.tas.gov.au/topics/laws-and-compliance/public-holidays",
+"Jurisdiction":"tas"
+},
+{
+"id":76,
+"Date":"20250422",
+"HolidayName":"Easter Tuesday - generally Tasmanian Public Service only",
+"Information":" ",
+"MoreInformation":"https://worksafe.tas.gov.au/topics/laws-and-compliance/public-holidays",
+"Jurisdiction":"tas"
+},
+{
+"id":77,
+"Date":"20250425",
+"HolidayName":"ANZAC Day",
+"Information":" ",
+"MoreInformation":"https://worksafe.tas.gov.au/topics/laws-and-compliance/public-holidays",
+"Jurisdiction":"tas"
+},
+{
+"id":78,
+"Date":"20250609",
+"HolidayName":"King's Birthday",
+"Information":" ",
+"MoreInformation":"https://worksafe.tas.gov.au/topics/laws-and-compliance/public-holidays",
+"Jurisdiction":"tas"
+},
+{
+"id":79,
+"Date":"20251225",
+"HolidayName":"Christmas Day",
+"Information":" ",
+"MoreInformation":"https://worksafe.tas.gov.au/topics/laws-and-compliance/public-holidays",
+"Jurisdiction":"tas"
+},
+{
+"id":80,
+"Date":"20251226",
+"HolidayName":"Boxing Day",
+"Information":" ",
+"MoreInformation":"https://worksafe.tas.gov.au/topics/laws-and-compliance/public-holidays",
+"Jurisdiction":"tas"
+},
+{
+"id":81,
+"Date":"20250101",
+"HolidayName":"New Year's Day",
+"Information":" ",
+"MoreInformation":"https://business.vic.gov.au/business-information/public-holidays/victorian-public-holidays-2025",
+"Jurisdiction":"vic"
+},
+{
+"id":82,
+"Date":"20250127",
+"HolidayName":"Australia Day",
+"Information":"As Australia Day falls on a Sunday, the public holiday is on the following Monday.",
+"MoreInformation":"https://business.vic.gov.au/business-information/public-holidays/victorian-public-holidays-2025",
+"Jurisdiction":"vic"
+},
+{
+"id":83,
+"Date":"20250310",
+"HolidayName":"Labour Day",
+"Information":" ",
+"MoreInformation":"https://business.vic.gov.au/business-information/public-holidays/victorian-public-holidays-2025",
+"Jurisdiction":"vic"
+},
+{
+"id":84,
+"Date":"20250418",
+"HolidayName":"Good Friday",
+"Information":"ANZAC Day, Good Friday and Christmas Day are restricted trading days.",
+"MoreInformation":"https://business.vic.gov.au/business-information/public-holidays/victorian-public-holidays-2025",
+"Jurisdiction":"vic"
+},
+{
+"id":85,
+"Date":"20250419",
+"HolidayName":"Saturday before Easter Sunday",
+"Information":" ",
+"MoreInformation":"https://business.vic.gov.au/business-information/public-holidays/victorian-public-holidays-2025",
+"Jurisdiction":"vic"
+},
+{
+"id":86,
+"Date":"20250420",
+"HolidayName":"Easter Sunday",
+"Information":" ",
+"MoreInformation":"https://business.vic.gov.au/business-information/public-holidays/victorian-public-holidays-2025",
+"Jurisdiction":"vic"
+},
+{
+"id":87,
+"Date":"20250421",
+"HolidayName":"Easter Monday",
+"Information":" ",
+"MoreInformation":"https://business.vic.gov.au/business-information/public-holidays/victorian-public-holidays-2025",
+"Jurisdiction":"vic"
+},
+{
+"id":88,
+"Date":"20250425",
+"HolidayName":"ANZAC Day",
+"Information":"ANZAC Day, Good Friday and Christmas Day are restricted trading days.",
+"MoreInformation":"https://business.vic.gov.au/business-information/public-holidays/victorian-public-holidays-2025",
+"Jurisdiction":"vic"
+},
+{
+"id":89,
+"Date":"20250609",
+"HolidayName":"King's Birthday",
+"Information":" ",
+"MoreInformation":"https://business.vic.gov.au/business-information/public-holidays/victorian-public-holidays-2025",
+"Jurisdiction":"vic"
+},
+{
+"id":90,
+"Date":" ",
+"HolidayName":"Friday before the AFL Grand Final",
+"Information":"Friday before AFL Grand Final typically falls on the last Friday in September. The Business Victoria website will be updated with the exact date upon release of the 2025 AFL schedule.",
+"MoreInformation":"https://business.vic.gov.au/business-information/public-holidays/victorian-public-holidays-2025",
+"Jurisdiction":"vic"
+},
+{
+"id":91,
+"Date":"20251104",
+"HolidayName":"Melbourne Cup",
+"Information":"Melbourne Cup Day is a public holiday across all of Victoria unless alternate local holiday has been arranged by a non-metro council.",
+"MoreInformation":"https://business.vic.gov.au/business-information/public-holidays/victorian-public-holidays-2025",
+"Jurisdiction":"vic"
+},
+{
+"id":92,
+"Date":"20251225",
+"HolidayName":"Christmas Day",
+"Information":"ANZAC Day, Good Friday and Christmas Day are restricted trading days.",
+"MoreInformation":"https://business.vic.gov.au/business-information/public-holidays/victorian-public-holidays-2025",
+"Jurisdiction":"vic"
+},
+{
+"id":93,
+"Date":"20251226",
+"HolidayName":"Boxing Day",
+"Information":" ",
+"MoreInformation":"https://business.vic.gov.au/business-information/public-holidays/victorian-public-holidays-2025",
+"Jurisdiction":"vic"
+},
+{
+"id":94,
+"Date":"20250101",
+"HolidayName":"New Year's Day",
+"Information":" ",
+"MoreInformation":"https://www.commerce.wa.gov.au/labour-relations/public-holidays-western-australia",
+"Jurisdiction":"wa"
+},
+{
+"id":95,
+"Date":"20250127",
+"HolidayName":"Australia Day",
+"Information":" ",
+"MoreInformation":"https://www.commerce.wa.gov.au/labour-relations/public-holidays-western-australia",
+"Jurisdiction":"wa"
+},
+{
+"id":96,
+"Date":"20250303",
+"HolidayName":"Labour Day",
+"Information":" ",
+"MoreInformation":"https://www.commerce.wa.gov.au/labour-relations/public-holidays-western-australia",
+"Jurisdiction":"wa"
+},
+{
+"id":97,
+"Date":"20250418",
+"HolidayName":"Good Friday",
+"Information":" ",
+"MoreInformation":"https://www.commerce.wa.gov.au/labour-relations/public-holidays-western-australia",
+"Jurisdiction":"wa"
+},
+{
+"id":98,
+"Date":"20250420",
+"HolidayName":"Easter Sunday",
+"Information":"Easter Sunday was established as a public holiday in Western Australia in February 2022. Visit the Easter Sunday public holiday page for more information.",
+"MoreInformation":"https://www.commerce.wa.gov.au/labour-relations/public-holidays-western-australia",
+"Jurisdiction":"wa"
+},
+{
+"id":99,
+"Date":"20250421",
+"HolidayName":"Easter Monday",
+"Information":" ",
+"MoreInformation":"https://www.commerce.wa.gov.au/labour-relations/public-holidays-western-australia",
+"Jurisdiction":"wa"
+},
+{
+"id":100,
+"Date":"20250425",
+"HolidayName":"Anzac Day",
+"Information":" ",
+"MoreInformation":"https://www.commerce.wa.gov.au/labour-relations/public-holidays-western-australia",
+"Jurisdiction":"wa"
+},
+{
+"id":101,
+"Date":"20250602",
+"HolidayName":"Western Australia Day",
+"Information":" ",
+"MoreInformation":"https://www.commerce.wa.gov.au/labour-relations/public-holidays-western-australia",
+"Jurisdiction":"wa"
+},
+{
+"id":102,
+"Date":"20250929",
+"HolidayName":"King's Birthday",
+"Information":"This public holiday now known as the King's Birthday, was previously known as the Queen’s Birthday. Some regional areas in WA hold this public holiday on a different date - the 2024 dates are on the Regional WA public holiday dates page.",
+"MoreInformation":"https://www.commerce.wa.gov.au/labour-relations/public-holidays-western-australia",
+"Jurisdiction":"wa"
+},
+{
+"id":103,
+"Date":"20251225",
+"HolidayName":"Christmas Day",
+"Information":" ",
+"MoreInformation":"https://www.commerce.wa.gov.au/labour-relations/public-holidays-western-australia",
+"Jurisdiction":"wa"
+},
+{
+"id":104,
+"Date":"20251226",
+"HolidayName":"Boxing Day",
+"Information":" ",
+"MoreInformation":"https://www.commerce.wa.gov.au/labour-relations/public-holidays-western-australia",
+"Jurisdiction":"wa"
+}
+]

@@ -1,10 +1,10 @@
 {
-    "name": "VSCode Extension Catalogue",
-    "short_name": "vscodeextcat",
+    "name": "Australian Public Holidays",
+    "short_name": "AusPubHolidays",
     "start_url": "/",
     "display": "standalone",
-    "background_color": "#fdfdfd",
-    "theme_color": "#14E6DD",
+    "background_color": "#4d4353",
+    "theme_color": "#b765c6",
     "orientation": "landscape-primary",
     "icons": [
         {

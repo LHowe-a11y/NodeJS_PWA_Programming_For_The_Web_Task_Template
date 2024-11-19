@@ -41,8 +41,8 @@ function appendData(data) {
             <div class="card">
             <img class="card-image" src=${JurisdictionImage} alt="Product image for the ${Date} VSCode extension."/>
             <h1 class="card-name">${HolidayName}</h1>
-            <p class="card-about">${MoreInformation}</p>
-            <a class="card-link" href="${Information}"><button class="btn">Read More</button></a>
+            <p class="card-about">${Information}</p>
+            <a class="card-link" href="${MoreInformation}"><button class="btn">Read More</button></a>
             </div>
             `;
     });

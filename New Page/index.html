@@ -9,17 +9,29 @@
 <body>
     <div>
         <img src="images\textlogo.png" alt="Logo. Picture of my cat drawn by a friend. Text reads 'Australian Public Holidays'.">
+    </div>
+    <div class="buttoncontainer">
+        <button class="filtersortbutton" onclick="filterdropdown()">Filter</button>
+        <button class="filtersortbutton" onclick="sortdropdown()">Sort</button>
+        <button class="ascdescbutton" onclick="asctoggle()">Ascending</button>
+        <button class="ascdescbutton" onclick="desctoggle()">Descending</button>
+    </div>
+    <div class="dropdowncontainer">
         <nav>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </nav>
-        <nav>
-            <!--<button class="filterbutton" onclick="filterdropdown()">Filter</button>
-            <button class="sortbutton" onclick="sortdropdown()">Sort</button>-->
-            <input type="text" id="filterandsort" onkeyup="filteroption()" placeholder="Filter and sort">
+            <div>
+                <button class="dropdownbutton"> </button>
+                <button class="dropdownbutton"> </button>
+                <button class="dropdownbutton"> </button>
+                <button class="dropdownbutton"> </button>
+                <button class="dropdownbutton"> </button>
+            </div>
+            <div>
+                <button class="dropdownbutton"> </button>
+                <button class="dropdownbutton"> </button>
+                <button class="dropdownbutton"> </button>
+                <button class="dropdownbutton"> </button>
+                <button class="dropdownbutton"> </button>
+            </div>
         </nav>
     </div>
 <script src="js/content.js"></script>

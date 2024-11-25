@@ -7,27 +7,36 @@
         <title>Aus Holidays</title>
     </head>
     <body>
-        <div>
-            <img src="images\textlogo.png" alt="Logo. Picture of my cat drawn by a friend. Text reads 'Australian Public Holidays'.">
+        <div id="banner">
+            <div id="bannercontent">
+                <img src="images\textlogo.png" alt="Logo. Picture of my cat drawn by a friend. Text reads 'Australian Public Holidays'.">
+            </div>
         </div>
-        <nav class="filterandsort">
-            <div class="dropdown">
-                <button onclick="filterDrop()" class="dropbtn">Filter</button>
-                <div id="filterDropdown" class="dropdown-content">
-                    <a href="#">Filter 1</a>
-                    <a href="#">Filter 2</a>
-                    <a href="#">Filter 3</a>
-                </div>
-            </div> 
-            <div class="dropdown">
-                <button onclick="sortDrop()" class="dropbtn">Sort</button>
-                <div id="sortDropdown" class="dropdown-content">
-                    <a href="#">Sort 1</a>
-                    <a href="#">Sort 2</a>
-                    <a href="#">Sort 3</a>
-                </div>
-            </div> 
-        </nav>
+        <div id="maincontent">
+            <nav class="filterandsort">
+                <div class="dropdown">
+                    <button onclick="jurisdictionDrop()" class="dropbtn">Jurisdiction</button>
+                    <div id="jurisdictionDropdown" class="dropdown-content-juris">
+                        <button onclick="actFilter()" id="actButton" class="jurisdictionButton toggledon">ACT</button>
+                        <button onclick="nswFilter()" id="nswButton" class="jurisdictionButton toggledon">NSW</button>
+                        <button onclick="vicFilter()" id="vicButton" class="jurisdictionButton toggledon">VIC</button>
+                        <button onclick="tasFilter()" id="tasButton" class="jurisdictionButton toggledon">TAS</button>
+                        <button onclick="qldFilter()" id="qldButton" class="jurisdictionButton toggledon">QLD</button>
+                        <button onclick="saFilter()" id="saButton" class="jurisdictionButton toggledon">SA</button>
+                        <button onclick="ntFilter()" id="ntButton" class="jurisdictionButton toggledon">NT</button>
+                        <button onclick="waFilter()" id="waButton" class="jurisdictionButton toggledon">WA</button>
+                    </div>
+                </div> 
+                <div class="dropdown">
+                    <button onclick="sortDrop()" class="dropbtn">Sort</button>
+                    <div id="sortDropdown" class="dropdown-content">
+                        <a href="#">Sort 1</a>
+                        <a href="#">Sort 2</a>
+                        <a href="#">Sort 3</a>
+                    </div>
+                </div> 
+            </nav>
+        </div>
         <script src="js/content.js"></script>
     </body>
 </html>

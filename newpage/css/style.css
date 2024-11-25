@@ -1,6 +1,6 @@
 .filterandsort {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -35,6 +35,17 @@
     z-index: 1;
 }
 
+.dropdown-content-juris {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 112px;
+    max-width: 112px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    overflow: hidden;
+}
+
 /* Links inside the dropdown */
 .dropdown-content a {
     color: black;
@@ -46,5 +57,64 @@
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #ddd;}
 
+/* Links inside the dropdown */
+.dropdown-content-juris button {
+    color: black;
+    padding: 12px 52px;
+    padding-left: 44px;
+    text-decoration: none;
+    display: block;
+    border:none;
+    width: max-content;
+}
+
+/* Change color of dropdown links on hover */
+/* .dropdown-content-juris button:hover {background-color: #ddd;} */
+
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;} 
+
+#bannercontent img {
+    height: 300px;
+}
+/* 
+.header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+div#banner {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: #4a2a53;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+div#bannercontent { 
+    width: 800px; 
+    margin: 0 auto; 
+    padding: 10px; 
+    border: 1px solid #000;
+}
+
+div#maincontent {
+    padding-top: 70px;
+}
+
+.toggledon {
+    background-color: #685e7c;
+}
+
+.jurisdictionButton:hover {
+    background-color: #ddd;
+}
+
+.toggledon:hover {
+    background-color: #564b6b;
+}

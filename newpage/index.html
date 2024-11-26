@@ -27,14 +27,20 @@
                         <button onclick="waFilter()" id="waButton" class="jurisdictionButton toggledon">WA</button>
                     </div>
                 </div> 
-                <div class="dropdown">
+                <div class="datefilter">
+                    <input type="text" id="earliestDate" onkeyup="earlyDateBar()" placeholder="Earliest date: YYYYMMDD">
+                    <div id="invalidWarningCapsule" class="defaulthidden">
+                        <p1>Invalid date, please use YYYYMMDD</p1>
+                    </div>
+                </div>
+                <!-- <div class="dropdown">
                     <button onclick="sortDrop()" class="dropbtn">Sort</button>
                     <div id="sortDropdown" class="dropdown-content">
                         <a href="#">Sort 1</a>
                         <a href="#">Sort 2</a>
                         <a href="#">Sort 3</a>
                     </div>
-                </div> 
+                </div>  -->
             </nav>
         </div>
         <script src="js/content.js"></script>

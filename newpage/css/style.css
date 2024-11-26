@@ -71,8 +71,10 @@
 /* Change color of dropdown links on hover */
 /* .dropdown-content-juris button:hover {background-color: #ddd;} */
 
+.defaulthidden {display:none;}
+
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;} 
+.show {display:block !important;} 
 
 #bannercontent img {
     height: 300px;
@@ -116,5 +118,16 @@ div#maincontent {
 }
 
 .toggledon:hover {
-    background-color: #564b6b;
+    background-color: #5c5172;
+}
+
+#invalidWarningCapsule p {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    background-color: #ddd;
+}
+
+#maincontent {
+    margin-top: 326px;
 }

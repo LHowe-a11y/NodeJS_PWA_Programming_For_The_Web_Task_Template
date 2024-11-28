@@ -15,6 +15,9 @@ let wa = true;
 let earliestDateBar = document.getElementById("earliestDate");
 let earlyDateWarningShown = false;
 
+let latestDateBar = document.getElementById("latestDate");
+let lateDateWarningShown = false;
+
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
 function jurisdictionDrop() {
@@ -130,6 +133,39 @@ function earlyDateBar() {
         if (earlyDateNumber > 10000000 && earlyDateNumber < 100000000 && earlyDateInput.length == 8) {
             earlyDateWarningShown = false;
             document.getElementById("invalidWarningCapsule").classList.toggle("show");
+        } else if (earlyDateInput.length == 0) {
+            earlyDateWarningShown = false;
+            document.getElementById("invalidWarningCapsule").classList.toggle("show");
         }
     }
+}
+
+function lateDateBar() {
+    let lateDateInput = latestDateBar.value;
+    // document.getElementById("invalidWarningCapsuleLate").classList.toggle("show");
+    // console.log(typeof Number(lateDateInput))
+    let lateDateNumber = Number(lateDateInput)
+    // console.log(typeof earlyDateNumber);
+    if (lateDateWarningShown == false) {
+        // document.getElementById("invalidWarningCapsuleLate").classList.toggle("show");
+        if (lateDateNumber < 10000000 || lateDateNumber > 100000000) {
+            lateDateWarningShown = true;
+            document.getElementById("invalidWarningCapsuleLate").classList.toggle("show");
+        } else if (lateDateInput.length != 8) {
+            lateDateWarningShown = true;
+            document.getElementById("invalidWarningCapsuleLate").classList.toggle("show");
+        }
+    } else if (lateDateWarningShown) {
+        if (lateDateNumber > 10000000 && lateDateNumber < 100000000 && lateDateInput.length == 8) {
+            lateDateWarningShown = false;
+            document.getElementById("invalidWarningCapsuleLate").classList.toggle("show");
+        } else if (lateDateInput.length == 0) {
+            lateDateWarningShown = false;
+            document.getElementById("invalidWarningCapsuleLate").classList.toggle("show");
+        }
+    }
+}
+
+function nameSearch() {
+    
 }

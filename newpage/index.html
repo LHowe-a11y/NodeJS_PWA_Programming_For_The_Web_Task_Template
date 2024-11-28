@@ -33,6 +33,18 @@
                         <p1>Invalid date, please use YYYYMMDD</p1>
                     </div>
                 </div>
+                <div class="datefilter">
+                    <input type="text" id="latestDate" onkeyup="lateDateBar()" placeholder="Latest date: YYYYMMDD">
+                    <div id="invalidWarningCapsuleLate" class="defaulthidden">
+                        <p1>Invalid date, please use YYYYMMDD</p1>
+                    </div>
+                </div>
+                <div class="namefilter">
+                    <input type="text" id="nameSearch" onkeyup="nameSearch()" placeholder="Name includes:">
+                </div>
+                <div class="dropdown">
+                    <button onclick="sortDrop()" class="dropbtn">Sort</button>
+                </div>
                 <!-- <div class="dropdown">
                     <button onclick="sortDrop()" class="dropbtn">Sort</button>
                     <div id="sortDropdown" class="dropdown-content">

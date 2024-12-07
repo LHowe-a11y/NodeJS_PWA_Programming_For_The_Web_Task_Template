@@ -16,7 +16,7 @@
             <nav class="filterandsort">
                 <div class="dropdown">
                     <button onclick="jurisdictionDrop()" class="dropbtn">Jurisdiction</button>
-                    <div id="jurisdictionDropdown" class="dropdown-content-juris">
+                    <div id="jurisdictionDropdown" class="dropdown-content-jurisandsort">
                         <button onclick="actFilter()" id="actButton" class="jurisdictionButton toggledon">ACT</button>
                         <button onclick="nswFilter()" id="nswButton" class="jurisdictionButton toggledon">NSW</button>
                         <button onclick="vicFilter()" id="vicButton" class="jurisdictionButton toggledon">VIC</button>
@@ -40,10 +40,26 @@
                     </div>
                 </div>
                 <div class="namefilter">
-                    <input type="text" id="nameSearch" onkeyup="nameSearch()" placeholder="Name includes:">
+                    <input type="text" id="nameSearch" placeholder="Name includes:">
                 </div>
                 <div class="dropdown">
-                    <button onclick="sortDrop()" class="dropbtn">Sort</button>
+                    <button onclick="sortDrop()" class="dropbtn" id="sortDropButton">Sort</button>
+                    <div id="sortDropdown" class="dropdown-content-jurisandsort">
+                        <button onclick="dateSort()" id="dateSortButton" class="sortButton">Date</button>
+                        <button onclick="nameSort()" id="nameSortButton" class="sortButton">Name</button>
+                        <button onclick="informationSort()" id="informationSortButton" class="sortButton">Information</button>
+                        <button onclick="jurisdictionSort()" id="jurisdictionSortButton" class="sortButton">Jurisdiction</button>
+                    </div>
+                </div>
+                <div class="ascDescButtonContainer">
+                    <span class="ascDescSpan">
+                        <p1 class="ascDescWord">Desc</p1>
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider"></span>
+                        </label>
+                        <p1 class="ascDescWord">Asc</p1>
+                    </span>
                 </div>
                 <!-- <div class="dropdown">
                     <button onclick="sortDrop()" class="dropbtn">Sort</button>

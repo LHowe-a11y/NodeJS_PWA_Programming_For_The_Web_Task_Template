@@ -1,7 +1,6 @@
-// const sqlite3 = require("sqlite3").verbose();
-// const db = new sqlite3.Database(".database/data_source.db");
-
 let number = Number(1)
+
+let sortBy = "none"
 
 let act = true;
 let nsw = true;
@@ -166,6 +165,63 @@ function lateDateBar() {
     }
 }
 
-function nameSearch() {
-    
+function dateSort() {
+    document.getElementById("dateSortButton").classList.toggle("toggledon");
+    if (sortBy == "date") {
+        sortBy = "none"
+    } else if (sortBy != "none") {
+        document.getElementById(sortBy.concat("SortButton")).classList.toggle("toggledon");
+        sortBy = "date"
+    } else {
+        sortBy = "date"
+    }
+}
+
+function nameSort() {
+    document.getElementById("nameSortButton").classList.toggle("toggledon");
+    if (sortBy == "name") {
+        sortBy = "none"
+    } else if (sortBy != "none") {
+        document.getElementById(sortBy.concat("SortButton")).classList.toggle("toggledon");
+        sortBy = "name"
+    } else {
+        sortBy = "name"
+    }
+}
+
+function informationSort() {
+    document.getElementById("informationSortButton").classList.toggle("toggledon");
+    if (sortBy == "information") {
+        sortBy = "none"
+    } else if (sortBy != "none") {
+        document.getElementById(sortBy.concat("SortButton")).classList.toggle("toggledon");
+        sortBy = "information"
+    } else {
+        sortBy = "information"
+    }
+}
+
+function jurisdictionSort() {
+    document.getElementById("jurisdictionSortButton").classList.toggle("toggledon");
+    if (sortBy == "jurisdiction") {
+        sortBy = "none"
+    } else if (sortBy != "none") {
+        document.getElementById(sortBy.concat("SortButton")).classList.toggle("toggledon");
+        sortBy = "jurisdiction"
+    } else {
+        sortBy = "jurisdiction"
+    }
+}
+
+const sqlite3 = require("sqlite3").verbose();
+const db = new sqlite3.Database(".database/data_source.db"); //May have to change file path
+
+function search() { // Alternatively, the query thing Milo suggested - ask about this
+    // Create SQL query
+
+    // Get data from database using query
+
+    // Write data to json file
+
+    // Add data to HTML
 }

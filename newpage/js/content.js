@@ -213,15 +213,13 @@ function jurisdictionSort() {
     }
 }
 
-const sqlite3 = require("sqlite3").verbose();
-const db = new sqlite3.Database(".database/data_source.db"); //May have to change file path
+function search() { 
+    // Check for valid inputs
+        // At least one jurisdiction selected
+        // Valid dates
+        // If invalid, abort and notify user
 
-function search() { // Alternatively, the query thing Milo suggested - ask about this
-    // Create SQL query
-
-    // Get data from database using query
-
-    // Write data to json file
-
-    // Add data to HTML
+    // Build query
+    // Build URL
+    // Redirect
 }

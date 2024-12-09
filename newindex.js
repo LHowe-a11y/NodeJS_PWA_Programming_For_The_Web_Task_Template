@@ -79,6 +79,40 @@ app.get("/", function (req, res) {
     }
     let dynamicquery = filterquery.concat(sortquery);
     let dbquery = select.concat(dynamicquery);
+    let myString = "[\n";
+    db.all(dbquery, function (err, rows) {
+        let myCounter = 0;
+        rows.forEach(function (row) {
+            // for debugging
+            // console.log(row.extID + ": " + row.name + ": " + row.hyperlink + ": " + row.about + ": " + row.image + ": " + row.language);
+            myString =
+                myString +
+                ',\n"Date":"' +
+                row.Date +
+                '",\n"HolidayName":"' +
+                row.HolidayName +
+                '",\n"Information":"' +
+                row.Information +
+                '",\n"MoreInformation":"' +
+                row.MoreInformation +
+                '",\n"Jurisdiction":"' +
+                row.Jurisdiction;
+            myCounter++;
+            if (myCounter == rows.length) {
+                myString = myString + '"\n}\n';
+            } else {
+                myString = myString + '"\n},\n';
+            }
+        });
+
+    // console.log(myString);
+        var fs = require("fs");
+        fs.writeFile("newpage/frontEndData.json", myString + "]", function (err) {
+            if (err) {
+                console.log(err);
+            }
+        });
+    });
 
     res.sendFile(path.join(__dirname, "newpage/index.html"));
 });

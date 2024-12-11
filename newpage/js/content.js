@@ -1,6 +1,6 @@
-let number = Number(1)
+let number = Number(1);
 
-let sortBy = "none"
+let sortBy = "none";
 
 let act = true;
 let nsw = true;
@@ -16,6 +16,8 @@ let earlyDateWarningShown = false;
 
 let latestDateBar = document.getElementById("latestDate");
 let lateDateWarningShown = false;
+
+let nameBar = document.getElementById("nameSearch");
 
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
@@ -213,13 +215,65 @@ function jurisdictionSort() {
     }
 }
 
+function toTitleCase(str) {
+    return str.replace(
+        /\w\S*/g,
+        text => text.charAt(0).toUpperCase() + text.substring(1).toLowerCase()
+    );
+}
+
+let edatevar = "";
+let ldatevar = "";
+let namevar = "";
+let sortvar = "";
+let ascdescvar = "";
+
 function search() { 
+    // window.location.href = "http://localhost:5000/?";
+    // const querystring = require('querystring');
+    // window.location.href = "http://localhost:5000/?";
     // Check for valid inputs
+    edatevar = latestDateBar.value;
+    if (edatevar == "") {
+        edatevar = "20250101";
+    }
+    ldatevar = earliestDateBar.value;
+    if (ldatevar == "") {
+        ldatevar = "20251231";
+    }
+    namevar = nameBar.value;
+    // window.location.href = "http://localhost:5000/?";
+    if (document.getElementById("ascDescCheckbox").checked) {
+        ascdescvar = "ASC";
+        // window.location.href = "http://localhost:5000/?";
+    } else {
+        ascdescvar = "DESC";
+        // window.location.href = "http://localhost:5000/?";
+    }
+    if (sortBy == "none") {
+        // window.location.href = "http://localhost:5000/?";
+        sortvar = "id";
+        ascdescvar = "ASC";
+        // window.location.href = "http://localhost:5000/?";
+    } else {
+        // window.location.href = "http://localhost:5000/?";
+        sortvar = toTitleCase(sortBy);
+        // window.location.href = "http://localhost:5000/?";
+    }
+    // window.location.href = "http://localhost:5000/?";
         // At least one jurisdiction selected
         // Valid dates
         // If invalid, abort and notify user
-
-    // Build query
-    // Build URL
-    // Redirect
+    if (false) {
+        'Warn user'
+    } else if (false) {
+        'Warn user'
+    } else {
+        let queriesstring = `search=true&act=${act.toString()}&nsw=${nsw.toString()}&vic=${vic.toString()}&tas=${tas.toString()}&qld=${qld.toString()}&sa=${sa.toString()}&nt=${nt.toString()}&wa=${wa.toString()}&edate=${edatevar}&ldate=${ldatevar}&name=${namevar}&sort=${sortvar}&ascdesc=${ascdescvar}/`;
+        // Build URL
+        baseurl = "/?";
+        urlbuilt = baseurl.concat(queriesstring);
+        // Redirect
+        window.location.href = urlbuilt;
+    }
 }

@@ -96,7 +96,7 @@ app.get("/views", function (req, res) {
     // console.log(dbquery);
     db.all(dbquery, function (err, rows) {
         // let myCounter = 0;
-        console.log(rows);
+        // console.log(rows);
         searchResults = "";
         if (rows == "") {
             searchResults = "<p>Your search returned no results</p>"
@@ -122,11 +122,11 @@ app.get("/views", function (req, res) {
             }
             searchResults += (`
                 <div class="card">
-                <img class="card-image" src=${JurisdictionImage} alt="Illustration of state/territory ${row.Jurisdiction} on a map"/>
                 <h1 class="card-name">${row.HolidayName}</h1>
+                <img class="card-image" src=${JurisdictionImage} alt="Illustration of state/territory ${row.Jurisdiction} on a map"/>
                 <p class="card-about">${row.Date}</p>
                 <p class="card-about">${row.Information}</p>
-                <a class="card-link" href="${row.MoreInformation}"><button class="btn">Read More</button></a>
+                <a class="card-link" href="${row.MoreInformation}"><button class="btn">More Info</button></a>
                 </div>
                 `);
                 

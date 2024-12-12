@@ -3,8 +3,8 @@
     "short_name": "AusPubHolidays",
     "start_url": "/",
     "display": "standalone",
-    "background_color": "aliceblue",
-    "theme_color": "#e5d5f2",
+    "background_color": "#4d4353",
+    "theme_color": "#b765c6",
     "orientation": "landscape-primary",
     "icons": [
         {

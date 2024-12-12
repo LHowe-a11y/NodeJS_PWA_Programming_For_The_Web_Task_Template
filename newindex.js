@@ -6,11 +6,11 @@ const express = require("express");
 const path = require("path");
 const bodyParser = require('body-parser');
 const app = express();
-app.use(express.static(path.join(__dirname, "newpage")));
+app.use(express.static(path.join(__dirname, "public")));
 // app.set('view engine', 'pug');
 app.set('views', './views')
 app.set('view engine', 'ejs');
-// app.use(express.static('newpage'));
+// app.use(express.static('public'));
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
@@ -18,7 +18,7 @@ app.use(bodyParser.json());
 let searchResults = "";
 
 app.get("/", function (req, res) {
-    res.sendFile(path.join(__dirname, "newpage/index.html"));
+    res.sendFile(path.join(__dirname, "public/index.html"));
 })
 app.get("/views", function (req, res) {
     let search = req.query.search;
@@ -157,14 +157,14 @@ app.get("/views", function (req, res) {
 
         // console.log(myString);
         // var fs = require("fs");
-        // fs.writeFile("newpage/frontenddata.json", myString + "]", function (err) {
+        // fs.writeFile("public/frontenddata.json", myString + "]", function (err) {
         //     if (err) {
         //         console.log(err);
         //     }
         res.render('index', { searchResults });
     });
 
-    // res.sendFile(path.join(__dirname, "newpage/index.html")); //TODO res.render()
+    // res.sendFile(path.join(__dirname, "public/index.html")); //TODO res.render()
     
     // console.log(searchResults);
     // res.render('index', { searchResults });

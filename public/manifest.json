@@ -58,14 +58,14 @@
     ],
     "screenshots": [
         {
-            "src": "icons/desktop_screenshot.png",
+            "src": "icons/pageScreenshot.png",
             "sizes": "1920x1080",
             "type": "image/png",
             "label": ""
         },
         {
-            "src": "icons/mobile_screenshot.png",
-            "sizes": "1080x1920",
+            "src": "icons/pageScreenshot.png",
+            "sizes": "1920x1080",
             "type": "image/png",
             "form_factor": "wide",
             "label": ""

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/style.css" />
+        <title>Aus Holidays</title>
+    </head>
+    <body>
+        <div id="banner">
+            <div id="bannercontent">
+                <img src="/images/textlogo.png" alt="Logo. Picture of my cat drawn by a friend. Text reads 'Australian Public Holidays'.">
+            </div>
+        </div>
+        <div id="maincontent">
+            <nav class="filterandsort">
+                <div class="dropdown">
+                    <button onclick="jurisdictionDrop()" class="dropbtn">Jurisdiction</button>
+                    <div id="jurisdictionDropdown" class="dropdown-content-jurisandsort">
+                        <button onclick="actFilter()" id="actButton" class="jurisdictionButton toggledon">ACT</button>
+                        <button onclick="nswFilter()" id="nswButton" class="jurisdictionButton toggledon">NSW</button>
+                        <button onclick="vicFilter()" id="vicButton" class="jurisdictionButton toggledon">VIC</button>
+                        <button onclick="tasFilter()" id="tasButton" class="jurisdictionButton toggledon">TAS</button>
+                        <button onclick="qldFilter()" id="qldButton" class="jurisdictionButton toggledon">QLD</button>
+                        <button onclick="saFilter()" id="saButton" class="jurisdictionButton toggledon">SA</button>
+                        <button onclick="ntFilter()" id="ntButton" class="jurisdictionButton toggledon">NT</button>
+                        <button onclick="waFilter()" id="waButton" class="jurisdictionButton toggledon">WA</button>
+                    </div>
+                </div> 
+                <div class="datefilter">
+                    <input type="text" id="earliestDate" onkeyup="earlyDateBar()" placeholder="Earliest date: YYYYMMDD">
+                    <div id="invalidWarningCapsule" class="defaulthidden">
+                        <p1>Invalid date, please use YYYYMMDD</p1>
+                    </div>
+                </div>
+                <div class="datefilter">
+                    <input type="text" id="latestDate" onkeyup="lateDateBar()" placeholder="Latest date: YYYYMMDD">
+                    <div id="invalidWarningCapsuleLate" class="defaulthidden">
+                        <p1>Invalid date, please use YYYYMMDD</p1>
+                    </div>
+                </div>
+                <div class="namefilter">
+                    <input type="text" id="nameSearch" placeholder="Name includes:">
+                </div>
+                <div class="dropdown">
+                    <button onclick="sortDrop()" class="dropbtn" id="sortDropButton">Sort</button>
+                    <div id="sortDropdown" class="dropdown-content-jurisandsort">
+                        <button onclick="dateSort()" id="dateSortButton" class="sortButton">Date</button>
+                        <button onclick="nameSort()" id="nameSortButton" class="sortButton">Name</button>
+                        <button onclick="informationSort()" id="informationSortButton" class="sortButton">Information</button>
+                        <button onclick="jurisdictionSort()" id="jurisdictionSortButton" class="sortButton">Jurisdiction</button>
+                    </div>
+                </div>
+                <div class="ascDescButtonContainer">
+                    <span class="ascDescSpan">
+                        <p1 class="ascDescWord">Desc</p1>
+                        <label class="switch">
+                            <input type="checkbox" id="ascDescCheckbox">
+                            <span class="slider"></span>
+                        </label>
+                        <p1 class="ascDescWord">Asc</p1>
+                    </span>
+                </div>
+                <div class="searchButtonContainer">
+                    <button onclick="search()" id="searchButton">Search</button>
+                    <p id="invalidSearchWarning" class="defaulthidden">Your search is invalid</p>
+                </div>
+            </nav>
+        </div>
+        <div class="resultsContainer"><%- searchResults %></div>
+        <script src="/js/app.js"></script>
+    </body>
+</html>

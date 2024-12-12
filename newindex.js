@@ -96,9 +96,9 @@ app.get("/views", function (req, res) {
     // console.log(dbquery);
     db.all(dbquery, function (err, rows) {
         // let myCounter = 0;
-        // console.log(rows);
+        console.log(rows);
         searchResults = "";
-        if (rows == undefined) {
+        if (rows == "") {
             searchResults = "<p>Your search returned no results</p>"
         }
         rows.forEach(function (row) {

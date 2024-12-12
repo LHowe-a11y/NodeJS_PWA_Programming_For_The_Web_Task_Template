@@ -1,16 +1,13 @@
 const sqlite3 = require("sqlite3").verbose();
 const db = new sqlite3.Database(".database/data_source.db");
-// const url = require('url');
-// const querystring = require('querystring');
 const express = require("express");
 const path = require("path");
 const bodyParser = require('body-parser');
 const app = express();
 app.use(express.static(path.join(__dirname, "public")));
-// app.set('view engine', 'pug');
+
 app.set('views', './views')
 app.set('view engine', 'ejs');
-// app.use(express.static('public'));
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
@@ -93,10 +90,7 @@ app.get("/views", function (req, res) {
     }
     let dynamicquery = filterquery.concat(sortquery);
     let dbquery = select.concat(dynamicquery);
-    // console.log(dbquery);
     db.all(dbquery, function (err, rows) {
-        // let myCounter = 0;
-        // console.log(rows);
         searchResults = "";
         if (rows == "") {
             searchResults = "<p>Your search returned no results</p>"
@@ -129,46 +123,11 @@ app.get("/views", function (req, res) {
                 <a class="card-link" href="${row.MoreInformation}"><button class="btn">More Info</button></a>
                 </div>
                 `);
-                
-            // console.log(results);
-
-            // // for debugging
-            // // console.log(row.extID + ": " + row.name + ": " + row.hyperlink + ": " + row.about + ": " + row.image + ": " + row.language);
-            // myString =
-            //     myString +
-            //     '{\n"Date":"' +
-            //     row.Date +
-            //     '",\n"HolidayName":"' +
-            //     row.HolidayName +
-            //     '",\n"Information":"' +
-            //     row.Information +
-            //     '",\n"MoreInformation":"' +
-            //     row.MoreInformation +
-            //     '",\n"Jurisdiction":"' +
-            //     row.Jurisdiction;
-            // myCounter++;
-            // if (myCounter == rows.length) {
-            //     myString = myString + '"\n}\n';
-            // } else {
-            //     myString = myString + '"\n},\n';
-            // }
-            // console.log(searchResults);
         });
-
-        // console.log(myString);
-        // var fs = require("fs");
-        // fs.writeFile("public/frontenddata.json", myString + "]", function (err) {
-        //     if (err) {
-        //         console.log(err);
-        //     }
         res.render('index', { searchResults });
     });
 
-    // res.sendFile(path.join(__dirname, "public/index.html")); //TODO res.render()
-    
-    // console.log(searchResults);
-    // res.render('index', { searchResults });
-    // console.log("hi");
+
 });
 app.listen(5000, () =>
     console.log(

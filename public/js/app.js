@@ -31,20 +31,6 @@ function sortDrop() {
     document.getElementById("sortDropdown").classList.toggle("show");
 }
 
-// Close the dropdown menu if the user clicks outside of it
-// window.onclick = function(event) {
-//     if (!event.target.matches('.dropbtn')) {
-//         var dropdowns = document.getElementsByClassName("dropdown-content");
-//         var i;
-//         for (i = 0; i < dropdowns.length; i++) {
-//             var openDropdown = dropdowns[i];
-//             if (openDropdown.classList.contains('show')) {
-//                 openDropdown.classList.remove('show');
-//             }
-//         }
-//     }
-// } 
-
 function actFilter() {
     if (act) {
         act = false;
@@ -231,9 +217,6 @@ let sortvar = "";
 let ascdescvar = "";
 
 function search() { 
-    // window.location.href = "http://localhost:5000/?";
-    // const querystring = require('querystring');
-    // window.location.href = "http://localhost:5000/?";
     // Check for valid inputs
     edatevar = earliestDateBar.value;
     if (edatevar == "") {
@@ -244,27 +227,19 @@ function search() {
         ldatevar = "20251231";
     }
     namevar = nameBar.value;
-    // window.location.href = "http://localhost:5000/?";
     if (document.getElementById("ascDescCheckbox").checked) {
         ascdescvar = "ASC";
-        // window.location.href = "http://localhost:5000/?";
     } else {
         ascdescvar = "DESC";
-        // window.location.href = "http://localhost:5000/?";
     }
     if (sortBy == "none") {
-        // window.location.href = "http://localhost:5000/?";
         sortvar = "id";
         ascdescvar = "ASC";
-        // window.location.href = "http://localhost:5000/?";
     } else if (sortBy == "name") {
         sortvar = "HolidayName"
     } else {
-        // window.location.href = "http://localhost:5000/?";
         sortvar = toTitleCase(sortBy);
-        // window.location.href = "http://localhost:5000/?";
     }
-    // window.location.href = "http://localhost:5000/?";
         // At least one jurisdiction selected
         // Valid dates
         // If invalid, abort and notify user

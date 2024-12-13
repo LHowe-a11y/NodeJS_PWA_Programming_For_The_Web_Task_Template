@@ -126,9 +126,10 @@ app.get("/views", function (req, res) {
         });
         res.render('index', { searchResults });
     });
-
-
 });
+app.get("/help", function (req, res) {
+    res.sendFile(path.join(__dirname, "public/help.html"));
+})
 app.listen(5000, () =>
     console.log(
         "Server is running on Port 5000, visit http://localhost:5000/ or http://127.0.0.1:5000 to access your website"

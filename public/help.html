@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--Static html-->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="manifest" href="manifest.json" />
+        <link rel="icon" type="image/x-icon" href="images/favicon.jpg" />
+        <title>Aus Holidays</title>
+    </head>
+    <body>
+        <div id="banner">
+            <div id="bannercontent">
+                <span class="pageHeader">
+                    <img src="/images/textlogo.png" alt="Logo. Picture of my cat drawn by a friend. Text reads 'Australian Public Holidays'.">
+                    <h1>2025</h1>
+                </span>
+            </div>
+        </div>
+        <div id="maincontent">
+            <span style="display: flex;">
+                <a href="/" style="padding-right: 30px;">home</a>
+                <a href="/views">all holidays</a>
+            </span>
+            <div>
+                <h2>How to search</h2>
+                <div>
+                    <h3>Jurisdiction</h3>
+                    <p>This is first from the left.
+                        Click this button to show/hide a dropdown menu with a button for each state/territory on it.
+                        All are on by default. You may click a button to turn it off or back on again.
+                        Search results will include holidays in the jurisdictions of the states and territories that are switched on.
+                        You must have at least one selected.
+                    </p>
+                </div>
+                <div>
+                    <h3>Earliest and latest dates</h3>
+                    <p>The earliest date search bar is second from the left, the latest date one is third.
+                        By default, they are blank. Input a date in YYYYMMDD form or leave blank for a valid search.
+                        The search will return results on or after the earliest date, and on or before the latest date.
+                        The default range (if left blank) is the first of January to the thirty-first of December, inclusive.
+                    </p>
+                </div>
+                <div>
+                    <h3>Name includes</h3>
+                    <p>The 'name includes' search bar is fourth from the left, and blank by default.
+                        Searches will return holidays with the input in this bar somewhere in the name.
+                        You may leave this blank to include all names.
+                        The input is not case sensitive.
+                    </p>
+                </div>
+                <div>
+                    <h3>Sort</h3>
+                    <p>The sort button is fifth from the left. Click it to show/hide a dropdown menu.
+                        By default, nothing will be selected. Click a button in the menu to turn it on, or back off again.
+                        You may leave nothing selected, but may only choose one sort option at a time. If you click a second button, it will turn on, but the other will turn off.
+                        Searches will return the holidays sorted by the option selected. If left blank, this will be date ascending, grouped by state/territory.
+                    </p>
+                </div>
+                <div>
+                    <h3>Ascending/Descending switch</h3>
+                    <p>The switch is sixth from the left, and says "Desc" to its left and "Asc" to its right.
+                        This is short for descending and ascending, respectively. By default, the switch is set to descending.
+                        Click the switch to change this to ascending or back to descending. This will determine the order the holidays are sorted in.
+                        For example, sorting by date ascending will start with the lowest (first) date, and end with the highest (latest) date.
+                        This might go from New Year's Day (Jan 1) to New Year's Eve (Dec 31). Sorting by date descending will reverse this.
+                    </p>
+                </div>
+                <div>
+                    <h3>Search button</h3>
+                    <p>The search button is seventh from the left. Click it to show the results of your search.
+                        The results shown will include your chosen filters and sorting.
+                        Pressing the search button will also return these settings to default, but if you want to edit your search,
+                        pressing the 'back' button in your browser will restore your chosen settings.
+                    </p>
+                </div>
+                <div>
+                    <p style="font-weight: bold;">You can press the back button in your browser to return to exactly the same page if you wish.</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
